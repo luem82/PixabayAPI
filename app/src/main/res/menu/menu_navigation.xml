@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <item
+        android:id="@+id/photoFragment"
+        android:icon="@drawable/ic_photo_black_24dp"
+        android:title="Hình Ảnh" />
+    <item
+        android:id="@+id/videoFragment"
+        android:icon="@drawable/ic_ondemand_video_black_24dp"
+        android:title="Video" />
+    <item
+        android:id="@+id/categoryFragment"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Chủ Đề" />
+    <item
+        android:id="@+id/searchPhotoFragment"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Tìm Kiếm Hình Ảnh" />
+    <item
+        android:id="@+id/searchVideoFragment"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Tìm Kiếm Video" />
+</menu>
